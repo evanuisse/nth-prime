@@ -1,6 +1,6 @@
-fn is_prime(n: u32) -> bool {
-    for i in 2..(n - 1) {
-        if n % i == 0 {
+fn is_prime(pripos: u32) -> bool {
+    for i in 2..(pripos - 1) {
+        if pripos % i == 0 {
             return false
         }
     }
